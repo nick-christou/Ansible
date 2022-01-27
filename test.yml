@@ -1,7 +1,7 @@
 ---
 - name: Set service startup mode to auto and ensure it is started
   tasks:
-    win_service:
+  - win_service:
       name: spooler
       start_mode: auto
       state: started
