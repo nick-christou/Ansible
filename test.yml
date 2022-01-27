@@ -1,8 +1,6 @@
 ---
-- name: A sample playbook for illustration
-  hosts: test1.exmplate.com
-  tasks:
-    - name: A simple task for exmaple playbooks
-      win_service:
-        name: spooler
-        state: started
+tasks:
+  - name: A simple task for exmaple playbooks
+    win_service:
+      name: spooler
+      state: started
