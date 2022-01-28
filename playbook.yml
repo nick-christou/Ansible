@@ -1,5 +1,6 @@
 ---
-- Name: Testing my first playbook
+- name: Testing my first playbook
+  hosts: exc1.christounet.org
   tasks:
   - Name: Start and set pooler service to automatic
     win_service:
