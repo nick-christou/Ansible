@@ -1,6 +1,6 @@
 ---
 - name: Testing my first playbook
-  hosts: inventory
+  hosts: Windows Servers
   tasks:
   - name: Start and set pooler service to automatic
     win_service:
