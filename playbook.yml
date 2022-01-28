@@ -1,0 +1,8 @@
+---
+- Name: Testing my first playbook
+  tasks:
+  - Name: Start and set pooler service to automatic
+    win_service:
+      name: spooler
+      start_mode: auto
+      state: started
